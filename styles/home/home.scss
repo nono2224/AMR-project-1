@@ -96,40 +96,14 @@ html {
                 animation-fill-mode: both;
                 will-change: animation;
             }
-            .circle-one {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                border-radius: 50%;
-                background-color: lightgray;
-                animation-name: circle-one;
-                animation-duration: 10s;
-                animation-timing-function: linear;
-                animation-fill-mode: both;
-                will-change: animation;
-            }
-            .circle-two {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                border-radius: 50%;
-                background-color: lightpink;
-                animation-name: circle-two;
-                animation-duration: 10s;
-                animation-timing-function: linear;
-                animation-fill-mode: both;
-                will-change: animation;
-            }
-            .circle-three {
+            .circle {
                 position: absolute;
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
                 border-radius: 50%;
                 background-image: linear-gradient(to top right, #a18cd1 0%, #fbc2eb 100%);
-                animation-name: circle-three;
+                animation-name: circle;
                 animation-duration: 10s;
                 animation-timing-function: linear;
                 animation-fill-mode: both;
@@ -415,7 +389,7 @@ html {
     }
 }
 
-@keyframes circle-one {
+@keyframes circle {
     0% {
         width: 0;
         height: 0;
@@ -434,52 +408,14 @@ html {
     }
 }
 
-@keyframes circle-two {
-    0% {
-        width: 0;
-        height: 0;
-    }
-    22% {
-        width: 0;
-        height: 0;
-    }
-    27% {
-        width: max(125vw, 125vh);
-        height: max(125vw, 125vh);
-    }
-    100% {
-        width: max(125vw, 125vh);
-        height: max(125vw, 125vh);
-    }
-}
-
-@keyframes circle-three {
-    0% {
-        width: 0;
-        height: 0;
-    }
-    24% {
-        width: 0;
-        height: 0;
-    }
-    29% {
-        width: max(125vw, 125vh);
-        height: max(125vw, 125vh);
-    }
-    100% {
-        width: max(125vw, 125vh);
-        height: max(125vw, 125vh);
-    }
-}
-
 @keyframes content {
     0% {
         opacity: 0;
     }
-    30% {
+    26% {
         opacity: 0;
     }
-    40% {
+    36% {
         opacity: 1;
     }
     100% {
@@ -493,12 +429,12 @@ html {
         left: 50%;
         transform: translate(-50%, -50%);
     }
-    30% {
+    26% {
         top: calc(50% + 20px);
         left: 50%;
         transform: translate(-50%, -50%);
     }
-    40% {
+    36% {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
