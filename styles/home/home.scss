@@ -21,8 +21,8 @@ html {
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
-                width: 415px;
-                height: 615px;
+                width: min(20vh * 2 + 15px, 20vw * 2 + 15px);
+                height: min(20vh * 3 + 15px, 20vw * 3 + 15px);
                 border-radius: 20px;
                 border: solid black 1px;
             }
@@ -30,8 +30,8 @@ html {
                 position: absolute;
                 top: 50%;
                 left: 50%;
-                width: 400px;
-                height: 600px;
+                width: min(20vh * 2, 20vw * 2);
+                height: min(20vh * 3, 20vw * 3);
                 background-color: lightblue;
                 border-radius: 20px;
                 animation-name: block-one;
@@ -44,8 +44,8 @@ html {
                 position: absolute;
                 top: 50%;
                 left: 50%;
-                width: 400px;
-                height: 600px;
+                width: min(20vh * 2, 20vw * 2);
+                height: min(20vh * 3, 20vw * 3);
                 background-color: lightgreen;
                 border-radius: 20px;
                 animation-name: block-two;
@@ -58,8 +58,8 @@ html {
                 position: absolute;
                 top: 50%;
                 left: 50%;
-                width: 400px;
-                height: 600px;
+                width: min(20vh * 2, 20vw * 2);
+                height: min(20vh * 3, 20vw * 3);
                 background-color: lightcoral;
                 border-radius: 20px;
                 animation-name: block-three;
@@ -72,8 +72,8 @@ html {
                 position: absolute;
                 top: 50%;
                 left: 50%;
-                width: 400px;
-                height: 600px;
+                width: min(20vh * 2, 20vw * 2);
+                height: min(20vh * 3, 20vw * 3);
                 background-color: lightseagreen;
                 border-radius: 20px;
                 animation-name: block-four;
@@ -86,8 +86,8 @@ html {
                 position: absolute;
                 top: 50%;
                 left: 50%;
-                width: 400px;
-                height: 600px;
+                width: min(20vh * 2, 20vw * 2);
+                height: min(20vh * 3, 20vw * 3);
                 background-color: lightgray;
                 border-radius: 20px;
                 animation-name: block-five;
@@ -196,7 +196,7 @@ html {
 
 @keyframes block-one {
     0% {
-        transform: translate3d(-50%, -50%, 200px) rotateX(25deg) rotateY(40deg);
+        transform: translate3d(-50%, -50%, 400px) rotateX(25deg) rotateY(40deg);
         opacity: 0;
     }
     8% {
@@ -211,11 +211,11 @@ html {
 
 @keyframes block-two {
     0% {
-        transform: translate3d(-50%, -50%, 200px) rotateX(-20deg) rotateY(60deg);
+        transform: translate3d(-50%, -50%, 400px) rotateX(-20deg) rotateY(60deg);
         opacity: 0;
     }
     2% {
-        transform: translate3d(-50%, -50%, 200px) rotateX(-20deg) rotateY(60deg);
+        transform: translate3d(-50%, -50%, 400px) rotateX(-20deg) rotateY(60deg);
         opacity: 0;
     }
     10% {
@@ -230,11 +230,11 @@ html {
 
 @keyframes block-three {
     0% {
-        transform: translate3d(-50%, -50%, 200px) rotateX(25deg) rotateY(-40deg);
+        transform: translate3d(-50%, -50%, 400px) rotateX(25deg) rotateY(-40deg);
         opacity: 0;
     }
     4% {
-        transform: translate3d(-50%, -50%, 200px) rotateX(25deg) rotateY(-40deg);
+        transform: translate3d(-50%, -50%, 400px) rotateX(25deg) rotateY(-40deg);
         opacity: 0;
     }
     12% {
@@ -249,11 +249,11 @@ html {
 
 @keyframes block-four {
     0% {
-        transform: translate3d(-50%, -50%, 200px) rotateX(60deg) rotateY(-80deg);
+        transform: translate3d(-50%, -50%, 400px) rotateX(60deg) rotateY(-80deg);
         opacity: 0;
     }
     6% {
-        transform: translate3d(-50%, -50%, 200px) rotateX(60deg) rotateY(-80deg);
+        transform: translate3d(-50%, -50%, 400px) rotateX(60deg) rotateY(-80deg);
         opacity: 0;
     }
     14% {
@@ -268,11 +268,11 @@ html {
 
 @keyframes block-five {
     0% {
-        transform: translate3d(-50%, -50%, 200px) rotateX(-50deg) rotateY(-40deg);
+        transform: translate3d(-50%, -50%, 400px) rotateX(-50deg) rotateY(-40deg);
         opacity: 0;
     }
     8% {
-        transform: translate3d(-50%, -50%, 200px) rotateX(-50deg) rotateY(-40deg);
+        transform: translate3d(-50%, -50%, 400px) rotateX(-50deg) rotateY(-40deg);
         opacity: 0;
     }
     16% {
