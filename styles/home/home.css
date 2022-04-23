@@ -230,6 +230,7 @@ html body .content .line header .home-button {
   display: inline-block;
   border: none;
   transition: 0.25s;
+  border-radius: 10px;
 }
 html body .content .line header .home-button:hover {
   background-color: #d0e3f2;
