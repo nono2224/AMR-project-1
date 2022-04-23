@@ -199,6 +199,32 @@ html {
                     height: calc(100% - 55px);
                     margin-top: 5px;
                     background-color: lightgray;
+                    position: relative;
+                    .app-icon-top {
+                        position: absolute;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        .app-icon-top-one {
+                            display: inline-block;
+                        }
+                        .app-icon-top-two {
+                            display: inline-block;
+                        }
+                        .app-icon-top-three {
+                            display: inline-block;
+                        }
+                    }
+                    .app-icon-bottom {
+                        position: absolute;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        .app-icon-bottom-one {
+                            display: inline-block;
+                        }
+                        .app-icon-bottom-two {
+                            display: inline-block;
+                        }
+                    }
                 }
             }
         }
