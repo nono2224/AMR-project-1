@@ -245,11 +245,17 @@ html body .content .line .home {
 }
 html body .content .line .home .app-icon {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: min(100vh, 90vw);
   height: min(40vh, 36vw);
+  -webkit-animation-name: app-icon;
+          animation-name: app-icon;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  will-change: animation;
 }
 html body .content .line .home .app-icon .app-icon-top {
   position: absolute;
@@ -665,6 +671,50 @@ html body .content .line .home .app-icon .app-icon-bottom .app-icon-bottom-two:h
   }
   100% {
     opacity: 1;
+  }
+}
+@-webkit-keyframes app-icon {
+  0% {
+    top: calc(50% + 20px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  30% {
+    top: calc(50% + 20px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  40% {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  100% {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@keyframes app-icon {
+  0% {
+    top: calc(50% + 20px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  30% {
+    top: calc(50% + 20px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  40% {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  100% {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 /*# sourceMappingURL=home.css.map */

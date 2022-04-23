@@ -203,11 +203,13 @@ html {
                     position: relative;
                     .app-icon {
                         position: absolute;
-                        top: 50%;
-                        left: 50%;
-                        transform: translate(-50%, -50%);
                         width: min(20vh * 5, 18vw * 5);
                         height: min(20vh * 2, 18vw * 2);
+                        animation-name: app-icon;
+                        animation-duration: 10s;
+                        animation-timing-function: linear;
+                        animation-fill-mode: both;
+                        will-change: animation;
                         .app-icon-top {
                             position: absolute;
                             top: 0;
@@ -481,5 +483,28 @@ html {
     }
     100% {
         opacity: 1;
+    }
+}
+
+@keyframes app-icon {
+    0% {
+        top: calc(50% + 20px);
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    30% {
+        top: calc(50% + 20px);
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    40% {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    100% {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
