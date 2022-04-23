@@ -265,6 +265,8 @@ html body .content .line .home .app-icon .app-icon-top .app-icon-top-one {
   width: min(20vh, 18vw);
   height: min(20vh, 18vw);
   margin-right: min(20vh, 18vw);
+  border: none;
+  background-color: #FCFCF3;
   background-image: url(../../images/home/01.svg);
   background-repeat: no-repeat;
   background-size: 80%;
@@ -275,6 +277,8 @@ html body .content .line .home .app-icon .app-icon-top .app-icon-top-two {
   width: min(20vh, 18vw);
   height: min(20vh, 18vw);
   margin-right: min(20vh, 18vw);
+  border: none;
+  background-color: #FCFCF3;
   background-image: url(../../images/home/02.svg);
   background-repeat: no-repeat;
   background-size: 80%;
@@ -284,6 +288,8 @@ html body .content .line .home .app-icon .app-icon-top .app-icon-top-three {
   display: inline-block;
   width: min(20vh, 18vw);
   height: min(20vh, 18vw);
+  border: none;
+  background-color: #FCFCF3;
   background-image: url(../../images/home/03.svg);
   background-repeat: no-repeat;
   background-size: 80%;
@@ -303,6 +309,8 @@ html body .content .line .home .app-icon .app-icon-bottom .app-icon-bottom-one {
   width: min(20vh, 18vw);
   height: min(20vh, 18vw);
   margin-right: min(20vh, 18vw);
+  border: none;
+  background-color: #FCFCF3;
   background-image: url(../../images/home/04.svg);
   background-repeat: no-repeat;
   background-size: 80%;
@@ -312,6 +320,8 @@ html body .content .line .home .app-icon .app-icon-bottom .app-icon-bottom-two {
   display: inline-block;
   width: min(20vh, 18vw);
   height: min(20vh, 18vw);
+  border: none;
+  background-color: #FCFCF3;
   background-image: url(../../images/home/05.svg);
   background-repeat: no-repeat;
   background-size: 80%;
