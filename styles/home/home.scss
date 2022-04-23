@@ -162,6 +162,8 @@ html {
                     position: relative;
                     width: 100%;
                     height: 50px;
+                    padding-bottom: 4px;
+                    border-bottom: 1px solid black;
                     .AMR-icon {
                         width: 50px;
                         height: 50px;
@@ -196,33 +198,81 @@ html {
                 }
                 .home {
                     width: 100%;
-                    height: calc(100% - 55px);
-                    margin-top: 5px;
-                    background-color: lightgray;
+                    height: calc(100% - 60px);
+                    margin-top: 10px;
                     position: relative;
-                    .app-icon-top {
+                    .app-icon {
                         position: absolute;
+                        top: 50%;
                         left: 50%;
-                        transform: translateX(-50%);
-                        .app-icon-top-one {
-                            display: inline-block;
+                        transform: translate(-50%, -50%);
+                        width: min(20vh * 5, 18vw * 5);
+                        height: min(20vh * 2, 18vw * 2);
+                        .app-icon-top {
+                            position: absolute;
+                            top: 0;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            width: min(20vh * 5, 18vw * 5);
+                            height: min(20vh, 18vw);
+                            font-size: 0;
+                            .app-icon-top-one {
+                                display: inline-block;
+                                width: min(20vh, 18vw);
+                                height: min(20vh, 18vw);
+                                margin-right: min(20vh, 18vw);
+                                background-image: url(../../images/home/01.svg);
+                                background-repeat: no-repeat;
+                                background-size: 80%;
+                                background-position: center;
+                            }
+                            .app-icon-top-two {
+                                display: inline-block;
+                                width: min(20vh, 18vw);
+                                height: min(20vh, 18vw);
+                                margin-right: min(20vh, 18vw);
+                                background-image: url(../../images/home/02.svg);
+                                background-repeat: no-repeat;
+                                background-size: 80%;
+                                background-position: center;
+                            }
+                            .app-icon-top-three {
+                                display: inline-block;
+                                width: min(20vh, 18vw);
+                                height: min(20vh, 18vw);
+                                background-image: url(../../images/home/03.svg);
+                                background-repeat: no-repeat;
+                                background-size: 80%;
+                                background-position: center;
+                            }
                         }
-                        .app-icon-top-two {
-                            display: inline-block;
-                        }
-                        .app-icon-top-three {
-                            display: inline-block;
-                        }
-                    }
-                    .app-icon-bottom {
-                        position: absolute;
-                        left: 50%;
-                        transform: translateX(-50%);
-                        .app-icon-bottom-one {
-                            display: inline-block;
-                        }
-                        .app-icon-bottom-two {
-                            display: inline-block;
+                        .app-icon-bottom {
+                            position: absolute;
+                            bottom: 0;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            width: min(20vh * 3, 18vw * 3);
+                            height: min(20vh, 18vw);
+                            font-size: 0;
+                            .app-icon-bottom-one {
+                                display: inline-block;
+                                width: min(20vh, 18vw);
+                                height: min(20vh, 18vw);
+                                margin-right: min(20vh, 18vw);
+                                background-image: url(../../images/home/04.svg);
+                                background-repeat: no-repeat;
+                                background-size: 80%;
+                                background-position: center;
+                            }
+                            .app-icon-bottom-two {
+                                display: inline-block;
+                                width: min(20vh, 18vw);
+                                height: min(20vh, 18vw);
+                                background-image: url(../../images/home/05.svg);
+                                background-repeat: no-repeat;
+                                background-size: 80%;
+                                background-position: center;
+                            }
                         }
                     }
                 }
