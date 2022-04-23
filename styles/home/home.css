@@ -271,6 +271,12 @@ html body .content .line .home .app-icon .app-icon-top .app-icon-top-one {
   background-repeat: no-repeat;
   background-size: 80%;
   background-position: center;
+  border-bottom: 2px solid transparent;
+  transition: 0.25s;
+  cursor: pointer;
+}
+html body .content .line .home .app-icon .app-icon-top .app-icon-top-one:hover {
+  border-bottom: 2px solid #98d6d4;
 }
 html body .content .line .home .app-icon .app-icon-top .app-icon-top-two {
   display: inline-block;
@@ -283,6 +289,12 @@ html body .content .line .home .app-icon .app-icon-top .app-icon-top-two {
   background-repeat: no-repeat;
   background-size: 80%;
   background-position: center;
+  border-bottom: 2px solid transparent;
+  transition: 0.25s;
+  cursor: pointer;
+}
+html body .content .line .home .app-icon .app-icon-top .app-icon-top-two:hover {
+  border-bottom: 2px solid #98d6d4;
 }
 html body .content .line .home .app-icon .app-icon-top .app-icon-top-three {
   display: inline-block;
@@ -294,6 +306,12 @@ html body .content .line .home .app-icon .app-icon-top .app-icon-top-three {
   background-repeat: no-repeat;
   background-size: 80%;
   background-position: center;
+  border-bottom: 2px solid transparent;
+  transition: 0.25s;
+  cursor: pointer;
+}
+html body .content .line .home .app-icon .app-icon-top .app-icon-top-three:hover {
+  border-bottom: 2px solid #98d6d4;
 }
 html body .content .line .home .app-icon .app-icon-bottom {
   position: absolute;
@@ -315,6 +333,12 @@ html body .content .line .home .app-icon .app-icon-bottom .app-icon-bottom-one {
   background-repeat: no-repeat;
   background-size: 80%;
   background-position: center;
+  border-bottom: 2px solid transparent;
+  transition: 0.25s;
+  cursor: pointer;
+}
+html body .content .line .home .app-icon .app-icon-bottom .app-icon-bottom-one:hover {
+  border-bottom: 2px solid #98d6d4;
 }
 html body .content .line .home .app-icon .app-icon-bottom .app-icon-bottom-two {
   display: inline-block;
@@ -326,6 +350,12 @@ html body .content .line .home .app-icon .app-icon-bottom .app-icon-bottom-two {
   background-repeat: no-repeat;
   background-size: 80%;
   background-position: center;
+  border-bottom: 2px solid transparent;
+  transition: 0.25s;
+  cursor: pointer;
+}
+html body .content .line .home .app-icon .app-icon-bottom .app-icon-bottom-two:hover {
+  border-bottom: 2px solid #98d6d4;
 }
 
 @-webkit-keyframes block-one {

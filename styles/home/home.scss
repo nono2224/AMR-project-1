@@ -227,6 +227,12 @@ html {
                                 background-repeat: no-repeat;
                                 background-size: 80%;
                                 background-position: center;
+                                border-bottom: 2px solid transparent;
+                                transition: .25s;
+                                cursor: pointer;
+                                &:hover {
+                                    border-bottom: 2px solid #98d6d4;
+                                }
                             }
                             .app-icon-top-two {
                                 display: inline-block;
@@ -239,6 +245,12 @@ html {
                                 background-repeat: no-repeat;
                                 background-size: 80%;
                                 background-position: center;
+                                border-bottom: 2px solid transparent;
+                                transition: .25s;
+                                cursor: pointer;
+                                &:hover {
+                                    border-bottom: 2px solid #98d6d4;
+                                }
                             }
                             .app-icon-top-three {
                                 display: inline-block;
@@ -250,6 +262,12 @@ html {
                                 background-repeat: no-repeat;
                                 background-size: 80%;
                                 background-position: center;
+                                border-bottom: 2px solid transparent;
+                                transition: .25s;
+                                cursor: pointer;
+                                &:hover {
+                                    border-bottom: 2px solid #98d6d4;
+                                }
                             }
                         }
                         .app-icon-bottom {
@@ -271,6 +289,12 @@ html {
                                 background-repeat: no-repeat;
                                 background-size: 80%;
                                 background-position: center;
+                                border-bottom: 2px solid transparent;
+                                transition: .25s;
+                                cursor: pointer;
+                                &:hover {
+                                    border-bottom: 2px solid #98d6d4;
+                                }
                             }
                             .app-icon-bottom-two {
                                 display: inline-block;
@@ -282,6 +306,12 @@ html {
                                 background-repeat: no-repeat;
                                 background-size: 80%;
                                 background-position: center;
+                                border-bottom: 2px solid transparent;
+                                transition: .25s;
+                                cursor: pointer;
+                                &:hover {
+                                    border-bottom: 2px solid #98d6d4;
+                                }
                             }
                         }
                     }
