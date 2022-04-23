@@ -21,8 +21,8 @@ html {
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
-                width: 415px;
-                height: 615px;
+                width: min(20vh * 2 + 15px, 20vw * 2 + 15px);
+                height: min(20vh * 3 + 15px, 20vw * 3 + 15px);
                 border-radius: 20px;
                 border: solid black 1px;
             }
@@ -30,8 +30,8 @@ html {
                 position: absolute;
                 top: 50%;
                 left: 50%;
-                width: 400px;
-                height: 600px;
+                width: min(20vh * 2, 20vw * 2);
+                height: min(20vh * 3, 20vw * 3);
                 background-color: lightblue;
                 border-radius: 20px;
                 animation-name: block-one;
@@ -44,8 +44,8 @@ html {
                 position: absolute;
                 top: 50%;
                 left: 50%;
-                width: 400px;
-                height: 600px;
+                width: min(20vh * 2, 20vw * 2);
+                height: min(20vh * 3, 20vw * 3);
                 background-color: lightgreen;
                 border-radius: 20px;
                 animation-name: block-two;
@@ -58,8 +58,8 @@ html {
                 position: absolute;
                 top: 50%;
                 left: 50%;
-                width: 400px;
-                height: 600px;
+                width: min(20vh * 2, 20vw * 2);
+                height: min(20vh * 3, 20vw * 3);
                 background-color: lightcoral;
                 border-radius: 20px;
                 animation-name: block-three;
@@ -72,8 +72,8 @@ html {
                 position: absolute;
                 top: 50%;
                 left: 50%;
-                width: 400px;
-                height: 600px;
+                width: min(20vh * 2, 20vw * 2);
+                height: min(20vh * 3, 20vw * 3);
                 background-color: lightseagreen;
                 border-radius: 20px;
                 animation-name: block-four;
@@ -86,8 +86,8 @@ html {
                 position: absolute;
                 top: 50%;
                 left: 50%;
-                width: 400px;
-                height: 600px;
+                width: min(20vh * 2, 20vw * 2);
+                height: min(20vh * 3, 20vw * 3);
                 background-color: lightgray;
                 border-radius: 20px;
                 animation-name: block-five;
